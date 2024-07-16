@@ -1,0 +1,84 @@
+<div class="container">
+	<div class="row mt-4">
+		<div class="col">
+			<h2 class="fs-4 text-center">
+				Edit/Modify Game
+			</h2>
+			<form (ngSubmit)="updateGame()" [formGroup]="editGameForm"
+				  class="needs-validation" novalidate>
+				<div class="m-2" style="display: none">
+					<mat-form-field class="col-12">
+						<mat-label>id</mat-label>
+						<input class="form-control"
+							   formControlName="id"
+							   matInput
+							   required
+							   type="text"/>
+					</mat-form-field>
+				</div>
+
+				<div class="m-2">
+					<mat-form-field class="col-12">
+						<mat-label>title</mat-label>
+						<input class="form-control"
+							   formControlName="title"
+							   matInput
+							   required
+							   type="text"/>
+					</mat-form-field>
+				</div>
+				<div class="m-2">
+					<mat-form-field class="col-12">
+						<mat-label>genre</mat-label>
+						<input class="form-control"
+							   formControlName="genre"
+							   id="genre"
+							   matInput
+							   name="genre"
+							   placeholder="genre"
+							   required
+							   type="text"/>
+
+					</mat-form-field>
+				</div>
+
+				<div class="m-2">
+					<mat-form-field class="col-12">
+						<mat-label>ReleasedYear</mat-label>
+						<input class="form-control"
+							   formControlName="releaseYear"
+							   id="releaseYear"
+							   matInput
+							   name="releaseYear"
+							   placeholder="releaseYear"
+							   required
+							   type="text"/>
+
+					</mat-form-field>
+				</div>
+
+				<div class="m-2">
+					<mat-form-field class="col-12">
+						<mat-label>rating</mat-label>
+						<input class="form-control"
+							   formControlName="rating"
+							   id="rating"
+							   matInput
+							   name="rating"
+							   placeholder="rating"
+							   required
+							   type="text"/>
+
+					</mat-form-field>
+				</div>
+				<div class="mt-4 d-flex justify-content-around">
+					<button [disabled]="!!editGameForm?.invalid" class="col-2 rounded-pill" color="primary"
+							mat-raised-button type="submit">Update Game
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
