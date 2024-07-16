@@ -1,0 +1,11 @@
+com\niit\bej\user\auth\exception\InvalidCredentialsException.class
+com\niit\bej\user\auth\UserAuthApplication.class
+com\niit\bej\user\auth\service\UserService.class
+com\niit\bej\user\auth\controller\UserController.class
+com\niit\bej\user\auth\security\SecurityTokenGenerator.class
+com\niit\bej\user\auth\exception\UserAlreadyRegisteredException.class
+com\niit\bej\user\auth\repository\UserRepository.class
+com\niit\bej\user\auth\exception\UserNotFoundException.class
+com\niit\bej\user\auth\model\User.class
+com\niit\bej\user\auth\security\JwtSecurityTokenGenerator.class
+com\niit\bej\user\auth\service\UserServiceImpl.class
