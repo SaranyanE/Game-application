@@ -1,0 +1,23 @@
+server:
+  port: 8083
+  error:
+    include-message: always
+
+
+spring:
+  application:
+    name: gaming-service
+
+
+
+  data:
+    mongodb:
+      uri: mongodb://mongodb-container:27017/games
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-server-service:8761/eureka
