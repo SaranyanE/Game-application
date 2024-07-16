@@ -1,0 +1,39 @@
+{
+  "games": [
+    {
+      "id": 4,
+      "title": "khatam",
+      "genre": "race",
+      "releaseYear": "2000",
+      "rating": "7.8"
+    },
+    {
+      "id": 5,
+      "title": "Edit game",
+      "genre": "rebooted",
+      "releaseYear": "2020",
+      "rating": "2.0"
+    },
+    {
+      "title": "wwe15",
+      "genre": "fight",
+      "releaseYear": "2019",
+      "rating": "6.9",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "title": "cars",
+      "genre": "action",
+      "releaseYear": "2020",
+      "rating": "5.5"
+    },
+    {
+      "title": "dsv",
+      "genre": "dgf",
+      "releaseYear": "ger",
+      "rating": "rtg",
+      "id": 8
+    }
+  ]
+}
